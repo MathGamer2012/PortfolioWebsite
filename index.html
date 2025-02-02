@@ -26,8 +26,7 @@
             <div id="home">
                 <div>
                     <h1 class="home-title"> Hi, I'm <span class ="auto-type"> </span> </h1>
-                    <h2 class="home-description"> A <span
-                            id="currentAge"></span> year old student
+                    <h2 class="home-description"> A 17 year old student
                         pursuring Software Engineering </h2>
                     <div class="home-button"> <button class="generic-button"
                             onclick=`${window.location.href="#about"}`> View More </button> </div>
@@ -194,9 +193,6 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"> </script>
     <script> 
-        let currentYear = new Date().getFullYear();
-        let birthYear = 2007; 
-        document.getElementById("currentAge").innerHTML = currentYear - birthYear;
         let typed = new Typed('.auto-type', {
             strings: ["^500Ishaan Mittal^500", "^500a Backend Developer^500"],
             typeSpeed: 90,
